@@ -1,0 +1,35 @@
+.answer button{
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.answer .wrong{
+    background-color: #FF3030;
+    bottom: 10px;
+    left: 10px
+}
+
+.answer .almost{
+    background-color: #FF922E;
+    bottom: 10px;
+    left: 105px
+}
+
+.answer .correct{
+    background-color: #2FBE34;
+    bottom: 10px;
+    left: 200px
+}
