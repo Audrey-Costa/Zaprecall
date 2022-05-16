@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-p{
+.card > p{
     font-family: 'Recursive';
     font-style: normal;
     font-weight: 700;
@@ -21,14 +21,17 @@ p{
     color: #333333;
 }
 
-.wrong{
+.card .wrong{
     color: #FF3030;
+    text-decoration-line: line-through;
 }
 
-.almost{
+.card .almost{
     color: #FF922E;
+    text-decoration-line: line-through;
 }
 
-.correct{
+.card .correct{
     color: #2FBE34;
+    text-decoration-line: line-through;
 }
