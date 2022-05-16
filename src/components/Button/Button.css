@@ -33,3 +33,38 @@
     bottom: 10px;
     left: 200px
 }
+
+@media (min-width: 1280px){
+    .answer button{
+        width: 160px;
+        height: 50px;
+        border-radius: 10px;
+        position: absolute;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Recursive';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        display: flex;
+        color: #FFFFFF;
+    }
+
+    .answer .wrong{
+        bottom: 10px;
+        left: 10px
+    }
+    
+    .answer .almost{
+        bottom: 10px;
+        left: 205px
+    }
+    
+    .answer .correct{
+        bottom: 10px;
+        left: 400px
+    }
+}

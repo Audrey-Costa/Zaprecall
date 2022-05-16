@@ -26,4 +26,12 @@
     transform: rotateY(180deg);
 }
 
-  
+@media (min-width: 1280px){
+    .answer{
+        width: 570px;
+        height: 160px;
+        font-size: 28px;
+        line-height: 30px;
+        align-items: flex-start;
+    }
+}  

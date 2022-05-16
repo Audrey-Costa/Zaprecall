@@ -4,3 +4,10 @@
     margin: 10px;
     position: relative;
 }
+
+@media (min-width: 1280px){
+    .questions{
+        width: 570px;
+        height: 160px;
+    }
+}

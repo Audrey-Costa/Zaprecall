@@ -35,3 +35,22 @@
     color: #2FBE34;
     text-decoration-line: line-through;
 }
+
+@media (min-width: 1280px){
+    .main .card{
+        width: 570px;
+        height: 140px;
+    }
+
+    .card > p{
+        font-family: 'Recursive';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        color: #333333;
+    }
+
+    .card > img{
+        width: 40px;
+    }
+}
