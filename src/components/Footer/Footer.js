@@ -11,7 +11,7 @@ export default function Footer(props){
     return (
         <div className={"footer" + props.final[0]}>
             {props.counterCorrect + props.counterIncorrect !== props.results.length ? "" :
- (props.counterCorrect === props.results.length ? <Message src={Parabens} alt={"Parabéns"} text={"Você não esqueceu de nenhum flashcard!"}/> : <Message src={Putz} alt={"Putz..."} text={"Ainda faltam alguns...Mas não desanime!"}/>)
+ (props.counterCorrect >= props.metaPoints ? <Message src={Parabens} alt={"Parabéns"} text={"Você não esqueceu de nenhum flashcard!"}/> : <Message src={Putz} alt={"Putz..."} text={"Ainda faltam alguns...Mas não desanime!"}/>)
             }
             <div className="progress">
                 <p>{props.counterCorrect + props.counterIncorrect} / {props.results.length} Concluídos</p>

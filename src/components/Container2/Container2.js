@@ -46,7 +46,7 @@ export default function Container2(props){
         <div className="container2">
             <Header/>
             <Main card={card} questions={questions} openQuestion={openQuestion} result={result} results={results} final={final}/>
-            <Footer init={props.init} counterCorrect={counterCorrect} counterIncorrect={counterIncorrect} results={results} order={order} final={final}/>
+            <Footer init={props.init} counterCorrect={counterCorrect} counterIncorrect={counterIncorrect} results={results} order={order} final={final} metaPoints={props.metaPoints}/>
         </div>
     )
 }
