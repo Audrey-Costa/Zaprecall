@@ -12,7 +12,7 @@ export default function Questions(props){
     }
     return (
         <div className="questions">
-            <Answer answers={props.answers} index={props.index} turn={turn} function={(parameter) => props.function(parameter, props.index)}/>
+            <Answer answers={props.questions} index={props.index} turn={turn} function={(parameter) => props.function(parameter, props.index)}/>
             <Question questions={props.questions} index={props.index} turn={turn} function={()=>toogle()}/>
         </div>
     )
